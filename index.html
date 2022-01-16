@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>First Elec App</title>
+  </head>
+  <body>
+    <h1>Your Todo List:</h1>
+    <ol>
+        <li>Buy Milk</li>
+        <li>Buy Bread</li>
+    </ol>
+    <p id="output"></p>
+    <button type="button" id="add-todo">Add Item</button>
+    <button type="button" id="notification">Send Notification</button>
+    <script src="./script.js"></script>
+    <script src="./notification.js"></script>
+  </body>
+</html>
